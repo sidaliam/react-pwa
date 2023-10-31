@@ -1,0 +1,59 @@
+.listreciepts{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.label{
+    color: black;
+}
+.element{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid ;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.element:hover{
+    border: 3px solid #594EF1;
+
+}
+.right{
+    height: 40px;
+    width:40px;
+    background-image: url("../images/Vector\ \(4\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.details-container {
+    display: block; /* Force l'élément à passer en dessous */
+    margin-top: 10px; /* Espacement en haut pour placer en dessous */
+    align-items: center;
+    margin-left: 20px;
+}
+.up-details{
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-details{
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+.img-details{
+    width: 270px;
+    height: 270px;
+    
+}
+
+

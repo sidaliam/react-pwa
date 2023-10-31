@@ -1,0 +1,51 @@
+
+.up{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    
+}
+.img1 {
+    width: 140px;
+    height: 40px;
+
+    top: 0;
+}
+.header-text{
+    margin-left: 5px;
+    color: #000;
+}
+
+
+.img2 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.black-text {
+    color: #000; /* Couleur noire */
+}
+
+h2 > .black-text {
+    color: #594EF1; /* Couleur #594EF1 */
+}
+h4{
+    color: #9E9E9E;
+}
+.colorOption {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #7451f8;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .light {
+    background-color: whitesmoke;
+  }
+  
+  .dark {
+    background-color: #333;
+  }
+  
